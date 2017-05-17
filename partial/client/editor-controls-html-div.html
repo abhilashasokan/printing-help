@@ -1,0 +1,31 @@
+<h3 id="editor_controls_html_div">HTML:Div</h3>
+<p>
+    The DIV elements, in conjunction with the id and class attributes, offer a generic mechanism for adding structure to documents. These elements define content to be block-level but impose no other presentational idioms on the content. Thus, authors may use these elements in conjunction with style sheets, the lang attribute, etc., to tailor HTML to their own needs and tastes.
+</p>
+<p>
+    Suppose, for example, that we wanted to generate an HTML document based on a client information.
+</p>
+<pre class="prettyprint customcode">
+&lt;!-- Example of data from the client information: --&gt;
+&lt;!-- Name: Stephane Boyera, Tel: (212) 555-1212, Email: sb@foo.org --&gt;
+&lt;div id=&quot;client-boyera&quot; class=&quot;client&quot;&gt;
+    &lt;table class=&quot;client-data&quot;&gt;
+        &lt;tr&gt;
+            &lt;th&gt;Last name:&lt;/th&gt;
+            &lt;td&gt;Boyera&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;th&gt;First name:&lt;/th&gt;
+            &lt;td&gt;Stephane&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;th&gt;Tel:&lt;/th&gt;
+            &lt;td&gt;(212) 555-1212&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;th&gt;Email:&lt;/th&gt;
+            &lt;td&gt;sb@foo.org&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/table&gt;
+&lt;/div&gt;
+</pre>
